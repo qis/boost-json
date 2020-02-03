@@ -1,0 +1,4 @@
+Source: boost-json
+Version: 2020-01-14
+Homepage: https://github.com/vinniefalco/json
+Description: Boost.JSON is a portable C++ JSON library
