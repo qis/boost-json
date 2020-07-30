@@ -6,8 +6,7 @@ Vcpkg port for [vinniefalco/json](https://github.com/vinniefalco/json).
 2. Clone this repository.
 3. Install the `boost-json` port using vcpkg overlays.
 
-```sh
-cd C:\Workspace
-git clone git@github.com:qis/boost-json boost-json
-vcpkg install --overlay-ports="C:\Workspace\boost-json" --head boost-json
+```cmd
+git clone git@github.com:qis/boost-json C:\Workspace\ports\boost-json
+vcpkg install --overlay-ports=C:\Workspace\ports --head boost-json
 ```
