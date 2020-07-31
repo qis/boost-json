@@ -1,4 +1,8 @@
 Source: boost-json
-Version: 2020-01-14
-Homepage: https://github.com/vinniefalco/json
+Version: 2020-07-28
+Homepage: https://github.com/CPPAlliance/json
 Description: Boost.JSON is a portable C++ JSON library
+
+Feature: boost
+Build-Depends: boost-assert, boost-config, boost-container, boost-core, boost-exception, boost-system, boost-utility
+Description: Build boost::json as a boost library.

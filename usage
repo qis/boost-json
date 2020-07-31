@@ -1,5 +1,0 @@
-The package boost-json is compatible with built-in CMake targets:
-
-    find_package(Boost REQUIRED)
-    target_link_libraries(main PRIVATE Boost::disable_autolinking Boost::headers)
-    target_compile_definitions(main PRIVATE BOOST_JSON_STANDALONE)
